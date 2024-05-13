@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Department</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button {
+            font-family: 'Poppins', sans-serif;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: -100px;
+            width: 100%;
+            z-index: 1000;
+            transition: bottom 0.3s ease;
+        }
+
+        .show-footer {
+            bottom: 0;
+        }
+
+        .team-section {
+            text-align: center;
+        }
+
+        .team-members {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .team-members li {
+            margin-bottom: 10px;
+        }
+
+        .guidance {
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 600px) {
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .button {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the Traffic Department's official website</h1>
+    </div>
+
+    <div class="container">
+        <div class="guidance">
+            <h2>Traffic Flow Prediction and Monitoring using Artifical Intelligence</h2>
+        </div>
+        
+        <div class="team-section">
+            <h2>Made By:</h2>
+            <ul class="team-members">
+                <li>github.com/umangmtiwari</li>
+            </ul>
+        </div>
+
+        <p>Our website provides real-time monitoring and updates on traffic conditions to help you navigate the roads safely and efficiently.</p>
+
+        <h2>Key Features:</h2>
+        <ul>
+            <li>Real-time traffic monitoring</li>
+            <li>Traffic alerts</li>
+            <li>Road condition updates</li>
+        </ul>
+
+        <h2>About Us:</h2>
+        <p><strong>Mission:</strong> The Traffic Department is dedicated to ensuring safe and efficient traffic management on our roads.</p>
+        <p><strong>Vision:</strong> Our vision is to create a transportation system that enhances mobility, safety, and quality of life for all.</p>
+
+        <h2>Objectives:</h2>
+        <ul>
+            <li>Reduce congestion</li>
+            <li>Minimize accidents</li>
+            <li>Improve overall traffic flow</li>
+        </ul>
+
+        <!-- Form for selecting camera -->
+        <h2>Real-Time Traffic Monitoring Camera:</h2>
+        <form method="post" action="/">
+            <div class="button-container">
+                <button class="button" type="submit" name="camera" value="Camera 1">Camera 1</button>
+                <button class="button" type="submit" name="camera" value="Camera 2">Camera 2</button>
+                <button class="button" type="submit" name="camera" value="Camera 3">Camera 3</button>
+                <button class="button" type="submit" name="camera" value="Camera 4">Camera 4</button>
+            </div>
+        </form>
+        <h2>Services:</h2>
+        <ul>
+            <li><strong>Real-Time Traffic Monitoring:</strong> Stay informed about current traffic conditions in your area with our real-time monitoring feature.</li>
+            <li><strong>Traffic Alerts:</strong> Receive instant alerts for accidents, road closures, construction, and other incidents affecting traffic flow.</li>
+            <li><strong>Road Condition Updates:</strong> Get updates on road conditions, including weather-related hazards, road closures, and detours.</li>
+        </ul>
+
+        <h2>Traffic Maps:</h2>
+        <ul>
+            <li><strong>Interactive Maps:</strong> Explore interactive maps displaying current traffic conditions, road closures, and construction zones.</li>
+            <li><strong>Legend:</strong> Refer to our legend to understand the symbols and colors used on the maps to represent different traffic conditions.</li>
+        </ul>
+
+        <h2>Resources:</h2>
+        <ul>
+            <li><strong>Traffic Laws and Regulations:</strong> Access links to relevant traffic laws, regulations, and driving guidelines.</li>
+            <li><strong>Safety Tips:</strong> Learn valuable tips for safe driving and pedestrian safety.</li>
+        </ul>
+    </div>
+
+    <div id="footer" class="footer">
+        <p>© 2024 Traffic Department - BDT Mini Project</p>
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var scrollHeight = document.documentElement.scrollHeight;
+            var windowHeight = window.innerHeight;
+            var scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop;
+
+            if ((scrollHeight - windowHeight - scrollPosition) < 10) {
+                document.getElementById("footer").classList.add("show-footer");
+            } else {
+                document.getElementById("footer").classList.remove("show-footer");
+            }
+        }
+    </script>
+</body>
+</html>
