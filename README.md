@@ -1,8 +1,8 @@
-# Traffic Flow Monitoring using Artificial Intelligence
+# Traffic Flow Monitoring and Prediction using Artificial Intelligence
 
 ## Introduction
 
-Welcome to the Traffic Flow Monitoring using Artificial Intelligence project! This repository contains the code and resources necessary to monitor traffic flow by counting vehicles of different categories such as bikes, cars, trucks, and buses. The project aims to provide a comprehensive solution for real-time traffic monitoring and prediction using AI techniques.
+Welcome to the Traffic Flow Monitoring and Prediction using Artificial Intelligence project! This repository contains the code and resources necessary to monitor traffic flow by counting vehicles of different categories such as bikes, cars, trucks, and buses. The project aims to provide a comprehensive solution for real-time traffic monitoring and prediction using AI techniques.
 
 ## Features
 
