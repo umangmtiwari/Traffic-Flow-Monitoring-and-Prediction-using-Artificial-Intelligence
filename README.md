@@ -11,6 +11,15 @@ Welcome to the Traffic Flow Monitoring and Prediction using Artificial Intellige
 - **Data Logging**: Each vehicle count is stored in an Excel sheet for further analysis and monitoring.
 - **Traffic Prediction**: Leveraging the collected data, the system can predict future traffic conditions based on historical patterns.
 
+## Screenshots
+![image](https://github.com/umangmtiwari/Traffic-Flow-Monitoring-and-Prediction-using-Artificial-Intelligence/assets/143312015/7863d8e4-b6a6-4354-a189-fbd2abf4e3da)
+
+![image](https://github.com/umangmtiwari/Traffic-Flow-Monitoring-and-Prediction-using-Artificial-Intelligence/assets/143312015/ddfe739c-234c-4cce-8d60-aaa4804c5fab)
+
+![image](https://github.com/umangmtiwari/Traffic-Flow-Monitoring-and-Prediction-using-Artificial-Intelligence/assets/143312015/b2ea7338-0424-4683-b5c7-cbd10ebc26f7)
+
+![image](https://github.com/umangmtiwari/Traffic-Flow-Monitoring-and-Prediction-using-Artificial-Intelligence/assets/143312015/b0e06a75-12f8-4925-9df7-6c01d492c93d)
+
 ## Usage
 
 To use this project, follow these steps:
